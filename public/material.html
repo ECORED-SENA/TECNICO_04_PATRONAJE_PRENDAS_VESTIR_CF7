@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <title>Escalado digital</title>
+        <meta meta name="description" content="Al finalizar todo el proceso de patronaje hasta el punto de prototipado, se hace el proceso de escalado, el escalado se hace después de la verificación y validación de los moldes que se quieren trabajar, El escalado se puede trabajar de manera digital o manual, en cualquiera de los dos casos siempre se debe tener como punto de partida el cuadro de tallas o la construcción para poder hacer el análisis detallado de las prendas, cada empresa, marca o industria trabaja medidas, análisis y cuadros de tallas diferentes.">
+        <link rel="icon" type="image/svg+xml" href="assets/images/logos/senaLogo.svg">
+        <link rel="stylesheet" href="assets/fonts/feather/feather.css">
+        <link rel="stylesheet" href="assets/fonts/fontawesome/css/font-awesome.css">
+        <link href="assets/css/fancybox.css" rel="stylesheet">
+        <link href="assets/css/animate.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+    <body class="theme-dark page-header-textura" id="page-home">
+        <header class="curso-presentacion page-header" id="CursoPresentacion">
+            <div class="page-textura">
+                <div class="container">
+                    <div class="curso-topbar justify-content-center justify-content-md-between"><a class="curso-topbar__logo"><svg xmlns="http://www.w3.org/2000/svg" width="168.273" height="164.177" viewBox="0 0 168.273 164.177">
+                                <path id="SENA_LOGO" data-name="SENA LOGO" d="M85.349,1a18.09,18.09,0,1,0,18.09,18.09h0A18.1,18.1,0,0,0,85.349,1ZM25.617,42.983a33.722,33.722,0,0,0-9.386,1.024,11.156,11.156,0,0,0-5.12,2.56A5.346,5.346,0,0,0,10.086,52.2c.683,1.707,2.56,2.9,4.608,3.584,4.437,1.536,9.386,1.877,13.994,2.731a5.1,5.1,0,0,1,2.389,1.024,1.369,1.369,0,0,1-.683,2.048,9.146,9.146,0,0,1-5.291.683A8.354,8.354,0,0,1,20.5,61.244a1.962,1.962,0,0,1-.853-2.389H9.233A7.663,7.663,0,0,0,10.6,63.463a7.59,7.59,0,0,0,4.267,2.389A28.541,28.541,0,0,0,23.4,66.876,52.426,52.426,0,0,0,35,66.023a11.043,11.043,0,0,0,5.8-2.9,5.358,5.358,0,0,0-1.365-8.533,21.267,21.267,0,0,0-5.8-2.048c-3.072-.683-5.973-1.024-9.045-1.536a9.114,9.114,0,0,1-3.072-.853,1.226,1.226,0,0,1,0-2.219,9.369,9.369,0,0,1,4.437-.683,10.554,10.554,0,0,1,4.608.853A1.877,1.877,0,0,1,31.59,49.81h9.9a5.669,5.669,0,0,0-1.195-3.584A8.875,8.875,0,0,0,35.515,43.5c-3.584-.341-6.827-.512-9.9-.512Zm21.333.683V67.217H75.792V62.1H57.531V57.489H73.744V52.54H57.531V48.786H75.109v-5.12Zm47.615,0H81.253V67.217H91.322V51.346l13.824,15.872h13.824V43.666H108.9v15.7Zm42.495,0L120.676,67.217h10.581l2.56-4.267H150.2l2.389,4.267h11.776l-15.53-23.551ZM142.35,49.3l5.12,8.533h-10.41ZM.7,74.044l.171,12.8L49,86.673c2.389.512,3.925,2.048,3.413,5.8l-29.7,51.711,9.557,9.045L78.01,74.044Zm91.646,0L137.4,152.89l9.9-8.874L117.433,92.3c-.512-3.584.853-5.291,3.413-5.8l48.127.171V74.044ZM84.837,87.185,42.512,159.546l11.264,5.461,28.159-47.615a4.283,4.283,0,0,1,2.9-1.195,4.681,4.681,0,0,1,3.072,1.195l28.159,47.786,11.605-5.973Z" transform="translate(-0.7 -1)" fill="#FF6B00" />
+                            </svg>
+                        </a><a class="curso-topbar__menubar collapsed btn-menu-responsive d-none" data-toggle="collapse" href="#curso-topbar__nav" aria-expanded="false"><span></span><span></span><span></span></a>
+                        <nav class="curso-topbar__nav collapse show d-none d-md-block" id="curso-topbar__nav">
+                            <ul class="curso-topbar__list">
+                                <li class="curso-topbar__item"><a class="curso-topbar__link" href="#ResultadosAprendizaje"><span>Resultados de aprendizaje</span></a></li>
+                                <li class="curso-topbar__item"><a class="curso-topbar__link" href="#IndiceTematico"><span>Índice temático</span></a></li>
+                                <li class="curso-topbar__item"><a class="curso-topbar__link" href="#Creditos"><span>Créditos</span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="curso-portada">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-lg-6">
+                                <h3 class="curso-subtitulo" id="curso-titulo-componente">Técnico en Patronaje Industrial de Prendas de Vestir</h3>
+                                <h1 class="curso-titulo" id="curso-titulo-tema">Escalado digital</h1>
+                                <div class="brand-line-primary"></div>
+                                <p class="curso-descripcion">Al finalizar todo el proceso de patronaje hasta el punto de prototipado, se hace el proceso de escalado, el escalado se hace después de la verificación y validación de los moldes que se quieren trabajar, El escalado se puede trabajar de manera digital o manual, en cualquiera de los dos casos siempre se debe tener como punto de partida el cuadro de tallas o la construcción para poder hacer el análisis detallado de las prendas, cada empresa, marca o industria trabaja medidas, análisis y cuadros de tallas diferentes.</p>
+                            </div>
+                            <div class="col-12 col-lg-6 text-center">
+                                <div class="d-none d-lg-block">
+                                    <!--img(src= srcImagen).curso-imagen-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="curso-resultados section bg-base-light" id="ResultadosAprendizaje">
+            <div class="container">
+                <h2> Resultados de <br>aprendizaje</h2>
+                <div class="brand-line-primary"></div>
+                <div class="card resultado-item">
+                    <div class="card-body">
+                        <ul class="bg-color-dark">
+                            <li><span>Escalar patrones de forma manual y sistematizada según procedimiento técnico y cuadro de tallas.</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="curso-indice-tematico section" id="IndiceTematico">
+            <div class="container">
+                <h2>Desarrollo de <br>contenidos</h2>
+                <div class="brand-line-primary"></div>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-sm-10">
+                        <div class="card wow flipInX" data-wow-delay=".4s">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush list my-n3 nav-temas">
+                                    <ul class="list-group list-group-flush list my-n3 nav-temas"></ul>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold"> <i class="fa fa-file-text-o"></i></span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="main.html#page/#tema-1/">Introducción</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="main.html#page/#tema-1/">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">1</span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="main.html#page/#tema-2/">Escalado manual de prendas</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="main.html#page/#tema-2/">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">2</span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="main.html#page/#tema-3/">Escalado en Optitex</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="main.html#page/#tema-3/">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold"> <i class="fa fa-sort-alpha-asc"></i></span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#glosario">Glosario</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#glosario">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold"> <i class="fa fa-folder-open"></i></span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#anexos">Material complementario</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#anexos">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold"> <i class="fa fa-book"></i></span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#referencias">Referencias bibliográficas</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#referencias">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="mainContent">
+            <div id="tema-1">
+                <div class="container" id="estadistica">
+                    <div class="header-ecored">
+                        <h1>Introducción</h1>
+                    </div><img class="img-fluid" src="assets/images/pages/img1.png" style="max-width: 100%">
+                </div>
+            </div>
+            <div id="tema-2">
+                <div class="container" id="escalado">
+                    <div class="header-ecored">
+                        <h1>1. Escalado manual de prendas</h1>
+                    </div><br>
+                    <div class="header-ecored">
+                        <h2>Introducción y contextualización - escalado</h2>
+                    </div>
+                    <div class="jumbotron bg-white shadow">
+                        <div class="sub-line mt-0">
+                            <h3>¿Qué es el escalado?</h3>
+                        </div>
+                        <div class="row justify-content-center mt-5">
+                            <div class="col-10 col-md-8">
+                                <div class="card-media">
+                                    <div class="card-media__body">
+                                        <figure class="card__figure"><img class="img-fluid" src="assets/images/pages/img2.png"></figure>
+                                        <p class="card__copy"> Es el método o técnica implementado para ampliar o reducir un patrón base, molde o trazo de una talla a otra proporcionalmente.</p>
+                                        <p class="mt-4">Las proporciones se identifican de acuerdo al cuadro de tallas o medidas estandarizadas.</p>
+                                        <p class="mt-4">Para llevar a cabo un escalado, se implementan planos cartesianos que permiten identificar puntos de referencia, en las medidas de largos, anchos y contornos con sus proporciones que se diferencian entre una talla y otra.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center mt-4">
+                            <div class="col-11">
+                                <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/q62l2sbPAaE" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+                            </div>
+                        </div>
+                        <div class="sub-line">
+                            <h3>Plano cartesiano</h3>
+                        </div>
+                        <p class="mt-5">Está formado por dos rectas perpendiculares, una horizontal y otra vertical que se entrecruzan en un punto.</p>
+                        <p>La <b>recta horizontal</b> es llamada eje de las abscisas o de las equis (x)</p>
+                        <p>La <b>recta vertical</b>, eje de las ordenadas o de las yes, (y)</p>
+                        <p>El punto donde se cortan recibe el nombre de origen (Punto cero o Punto muerto).</p>
+                        <p>El plano cartesiano tiene como finalidad describir la posición de puntos, los cuales se representan por sus coordenadas o pares ordenados. </p>
+                        <p>Para la implementación del plano cartesiano trabajaremos con el sistema de medidas de mayor dominio</p><img class="img-fluid img-a" src="assets/images/pages/img3.png" style="max-width: 100%">
+                        <div class="sub-line">
+                            <h3>Ejemplo</h3>
+                        </div>
+                        <p class="mt-5">Si tomamos como punto de partida el punto de origen al hablar de reducir o aumentar podríamos acudir a los espacios negativos o Positivos del plano cartesiano.</p><img class="img-fluid img-a" src="assets/images/pages/img4.png" style="max-width: 100%"><img class="img-fluid img-a" src="assets/images/pages/img5.png" style="max-width: 100%">
+                        <div class="sub-line">
+                            <h3>Ejemplo</h3>
+                        </div>
+                        <p>Para entender cómo funciona el escalado desde plano cartesiano vamos a tomar como referencia un cuadrado.</p>
+                        <p>Este cuadro es el molde base o talla base a trabajar.</p>
+                        <p>De este cuadrado deben salir 2 figuras más para un total de 3 figuras, siendo este el punto intermedio.</p>
+                        <p>La diferencia en <b>Ancho</b> es de <b>2cm</b>.</p>
+                        <p>La diferencia en <b>Largo</b> es de <b>2cm</b>.</p>
+                        <p>Se debe sacar 1 cuadrado más pequeño y 1 cuadrado más grande. Recuerde que todos los lados del cuadrado deben quedar iguales.</p><img class="img-fluid img-a" src="assets/images/pages/img6.png" style="max-width: 100%"><img class="img-fluid img-a" src="assets/images/pages/img7.png" style="max-width: 100%"><img class="img-fluid img-a" src="assets/images/pages/img8.png" style="max-width: 100%">
+                        <div class="sub-line">
+                            <h3>Ejemplo</h3>
+                        </div>
+                        <p class="mt-5">Para identificar las proporciones a aplicar, se debe trabajar con las siguientes medidas.</p>
+                        <p>En este caso el punto base o el punto de partida es el Mediano la diferencia entre medida y medida es de 2 cm para aumentar y -2 cm para reducir.</p>
+                        <p>Para aplicar en escalado se trabaja no con la diferencia, si no con las proporciones.</p><img class="img-fluid img-a" src="assets/images/pages/img9.png" style="max-width: 100%">
+                        <div class="row justify-content-center mt-5">
+                            <div class="col-10 col-md-8">
+                                <div class="card-media">
+                                    <div class="card-media__body">
+                                        <figure class="card__figure"><img class="img-fluid" src="assets/images/pages/img2.png"></figure>
+                                        <h3 class="card__copy">Cómo identificar las proporciones</h3>
+                                        <p class="mt-4">Si la diferencia entre una medida y otra es de 2cm.</p>
+                                        <p>La proporción, equivale a la manera en la que se aplica en el plano, es decir:</p>
+                                        <div class="row justify-content-center">
+                                            <div class="col-11">
+                                                <div class="list align-items-start mt-4">
+                                                    <div class="list__item">
+                                                        <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                                    </div>
+                                                    <div class="list__txt">
+                                                        <p class="mt-1">Si sobre el plano se aplica la medida completa, dicha medida equivale a 1 proporción 1 proporción será 2 cm.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="list align-items-start mt-2">
+                                                    <div class="list__item">
+                                                        <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                                    </div>
+                                                    <div class="list__txt">
+                                                        <p class="mt-1">Si sobre el plano se aplica la mitad de la medida, esto equivale a 1/2 proporción 1/2 proporción será 1 cm.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><img class="img-fluid img-a" src="assets/images/pages/img10.png" style="max-width: 100%">
+                        <div class="sub-line">
+                            <h3>Ejercicio de análisis</h3>
+                        </div>
+                        <div class="row mt-5 align-items-center">
+                            <div class="col">
+                                <p>Realice el escalado de la siguiente figura, teniendo en cuenta:</p>
+                                <div class="row justify-content-center">
+                                    <div class="col-11">
+                                        <div class="list align-items-start mt-4">
+                                            <div class="list__item">
+                                                <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                            </div>
+                                            <div class="list__txt">
+                                                <p class="mt-1">El cuadro de tallas asignado.</p>
+                                            </div>
+                                        </div>
+                                        <div class="list align-items-start mt-2">
+                                            <div class="list__item">
+                                                <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                            </div>
+                                            <div class="list__txt">
+                                                <p class="mt-1">La talla base y las medidas.</p>
+                                            </div>
+                                        </div>
+                                        <div class="list align-items-start mt-2">
+                                            <div class="list__item">
+                                                <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                            </div>
+                                            <div class="list__txt">
+                                                <p class="mt-1">Las diferencias entre talla y talla.</p>
+                                            </div>
+                                        </div>
+                                        <div class="list align-items-start mt-2">
+                                            <div class="list__item">
+                                                <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                            </div>
+                                            <div class="list__txt">
+                                                <p class="mt-1">La asignación de proporciones, según tipo de plano a trabajar.</p>
+                                            </div>
+                                        </div>
+                                        <div class="list align-items-start mt-2">
+                                            <div class="list__item">
+                                                <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                            </div>
+                                            <div class="list__txt">
+                                                <p class="mt-1">El punto de origen sobre el plano cartesiano y la ubicación de la figura.</p>
+                                            </div>
+                                        </div>
+                                        <div class="list align-items-start mt-2">
+                                            <div class="list__item">
+                                                <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                            </div>
+                                            <div class="list__txt">
+                                                <p class="mt-1">El cuadro de tallas asignado.</p>
+                                            </div>
+                                        </div>
+                                        <div class="list align-items-start mt-2">
+                                            <div class="list__item">
+                                                <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                            </div>
+                                            <div class="list__txt">
+                                                <p class="mt-1">La talla base y las medidas.</p>
+                                            </div>
+                                        </div>
+                                        <div class="list align-items-start mt-2">
+                                            <div class="list__item">
+                                                <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                            </div>
+                                            <div class="list__txt">
+                                                <p class="mt-1">Las diferencias entre talla y talla.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-auto"><img class="img-fluid img-a" src="assets/images/pages/img11.png" style="max-width: 100%"></div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-auto"><img class="img-fluid img-a" src="assets/images/pages/img12.png" style="max-width: 100%"></div>
+                            <div class="col">
+                                <p>El cuadro de tallas asignado.</p>
+                                <p>La talla base y las medidas.</p>
+                                <p>Las diferencias entre talla y talla.</p>
+                            </div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-auto"><img class="img-fluid img-a" src="assets/images/pages/img13.png" style="max-width: 100%"></div>
+                            <div class="col">
+                                <p>Asignación de proporciones, Plano por mitad.</p>
+                            </div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-auto"><img class="img-fluid img-a" src="assets/images/pages/img14.png" style="max-width: 100%"></div>
+                            <div class="col">
+                                <p>En este caso que el punto de origen está en un punto que divide el largo total.</p>
+                                <p>Se debe tomar la proporción y aplicar mitad hacia arriba - mitad hacia abajo para el largo total y no perder la proporción de la figura.</p>
+                            </div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-auto"><img class="img-fluid img-a" src="assets/images/pages/img15.png" style="max-width: 100%"></div>
+                            <div class="col">
+                                <p>En este caso que el punto de origen está en un punto base de construcción.</p>
+                                <p>se debe tomar la proporción y aplicar toda hacia arriba para largo total y no perder la proporción de la figura.</p>
+                                <p>Sin embargo, debe tener en cuenta el vértice A.B modifica a su altura, para no perder la proporción de la figura.</p>
+                            </div>
+                        </div>
+                        <div class="sub-line">
+                            <h3>Ejercicios de elaboración</h3>
+                        </div>
+                        <p class="mt-5">Teniendo en cuenta el ejercicio de análisis y sus respectivas explicaciones, realice el escalado de la figura en todas las tallas, con los 2 puntos de origen propuestos en la explicación anterior.</p>
+                        <p>Para poder realizar dicha actividad necesita:</p>
+                        <div class="row justify-content-center">
+                            <div class="col-11">
+                                <div class="list align-items-start mt-4">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mt-1">Lápiz.</p>
+                                    </div>
+                                </div>
+                                <div class="list align-items-start mt-2">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mt-1">Lápices de colores.</p>
+                                    </div>
+                                </div>
+                                <div class="list align-items-start mt-2">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mt-1">Papel.</p>
+                                    </div>
+                                </div>
+                                <div class="list align-items-start mt-2">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mt-1">Reglas en cm.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><img class="img-fluid img-a" src="assets/images/pages/img16.png" style="max-width: 100%"><img class="img-fluid img-a" src="assets/images/pages/img17.png" style="max-width: 100%">
+                        <section class="mt-4">
+                            <div class="row justify-content-center">
+                                <div class="col-auto"><a class="media-link" href="media/documentos/Anexo_16.pdf" target="_blank"><img class="media-link-icon" src="assets/images/icons/icon_pdf.svg" alt="">
+                                        <div class="media-link-title">
+                                            <p>Introducción y contextualización - escalado</p>
+                                        </div>
+                                    </a></div>
+                            </div>
+                        </section>
+                    </div><br id="escalado1">
+                    <div class="header-ecored">
+                        <h2>1.1 Escalado de falda</h2>
+                    </div>
+                    <div class="jumbotron bg-white shadow">
+                        <p>Cuando se va a iniciar con el proceso de escalado, se debe tener en cuenta referencias como cuadros de tallas, metodología y lógica de construcción, pieza o molde que se va escalar, es decir en este caso se hace referencia a una base inferior de falda, quiere decir un molde que no tiene margen de costura, ni es una prenda, se trabajará el escalado de una base en las diferentes tallas, de igual manera se debe tener en cuenta el tipo de escalado que se va a trabajar, los aumentos y disminuciones por talla.</p>
+                        <div class="row justify-content-center">
+                            <div class="col-11">
+                                <div class="list align-items-start mt-4">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mt-1">Hacer el análisis del cuadro de tallas.</p>
+                                    </div>
+                                </div>
+                                <div class="list align-items-start mt-2">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mt-1">Hacer el análisis de diferencia por talla e identificar la medida aplicar en el escalado.</p>
+                                    </div>
+                                </div>
+                                <div class="list align-items-start mt-2">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mt-1">Hacer el análisis de los puntos de escalado que se van a referenciar o modificar.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center mt-4">
+                            <div class="col-11">
+                                <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/zkT1YOljFq4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+                            </div>
+                        </div>
+                        <section class="mt-4">
+                            <div class="row justify-content-center">
+                                <div class="col-auto"><a class="media-link" href="media/documentos/Anexo_161.pdf" target="_blank"><img class="media-link-icon" src="assets/images/icons/icon_pdf.svg" alt="">
+                                        <div class="media-link-title">
+                                            <p>Escalado de falda - Femenino</p>
+                                        </div>
+                                    </a></div>
+                            </div>
+                        </section>
+                    </div><br id="escalado2">
+                    <div class="header-ecored">
+                        <h2>1.2 Escalado de base con pinzas - superior</h2>
+                    </div>
+                    <div class="jumbotron bg-white shadow">
+                        <p>Cuando se va a iniciar con el proceso de escalado, se debe tener en cuenta referencias como cuadros de tallas, metodología y lógica de construcción, pieza o molde que se va escalar, es decir en este caso se hace referencia a una base superior femenina con pinzas, quiere decir un molde que no tiene margen de costura, ni es una prenda, se trabajará el escalado de una base en las diferentes tallas, de igual manera se debe tener en cuenta el tipo de escalado que se va a trabajar, los aumentos y disminuciones por talla.</p>
+                        <div class="row justify-content-center">
+                            <div class="col-11">
+                                <div class="list align-items-start mt-4">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mt-1">Hacer el análisis del cuadro de tallas.</p>
+                                    </div>
+                                </div>
+                                <div class="list align-items-start mt-2">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mt-1">Hacer el análisis de diferencia por talla e identificar la medida aplicar en el escalado.</p>
+                                    </div>
+                                </div>
+                                <div class="list align-items-start mt-2">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mt-1">Hacer el análisis de los puntos de escalado que se van a referenciar o modificar.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center mt-4">
+                            <div class="col-11">
+                                <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/gASgA-dGS5E" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+                            </div>
+                        </div>
+                        <section class="mt-4">
+                            <div class="row justify-content-center">
+                                <div class="col-auto"><a class="media-link" href="media/documentos/Anexo_162-1.pdf" target="_blank"><img class="media-link-icon" src="assets/images/icons/icon_pdf.svg" alt="">
+                                        <div class="media-link-title">
+                                            <p>Escalado de base con pinzas - superior (1)</p>
+                                        </div>
+                                    </a></div>
+                            </div>
+                        </section>
+                        <section class="mt-4">
+                            <div class="row justify-content-center">
+                                <div class="col-auto"><a class="media-link" href="media/documentos/Anexo_162-2.pdf" target="_blank"><img class="media-link-icon" src="assets/images/icons/icon_pdf.svg" alt="">
+                                        <div class="media-link-title">
+                                            <p>Escalado de base con pinzas - superior (2)</p>
+                                        </div>
+                                    </a></div>
+                            </div>
+                        </section>
+                    </div><br id="escalado3">
+                    <div class="header-ecored">
+                        <h2>1.3 Escalado de básico de pantalón</h2>
+                    </div>
+                    <div class="jumbotron bg-white shadow">
+                        <p>Cuando se va a iniciar con el proceso de escalado, se debe tener en cuenta referencias como cuadros de tallas, metodología y lógica de construcción, pieza o molde que se va escalar, es decir en este caso se hace referencia a una base inferior de pantalón, quiere decir un molde que no tiene margen de costura, ni es una prenda, se trabajará el escalado de una base en las diferentes tallas, de igual manera se debe tener en cuenta el tipo de escalado que se va a trabajar, los aumentos y disminuciones por talla.</p>
+                        <div class="row justify-content-center">
+                            <div class="col-11">
+                                <div class="list align-items-start mt-4">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mt-1">Hacer el análisis del cuadro de tallas.</p>
+                                    </div>
+                                </div>
+                                <div class="list align-items-start mt-2">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mt-1">Hacer el análisis de diferencia por talla e identificar la medida aplicar en el escalado.</p>
+                                    </div>
+                                </div>
+                                <div class="list align-items-start mt-2">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mt-1">Hacer el análisis de los puntos de escalado que se van a referenciar o modificar.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center mt-4">
+                            <div class="col-11">
+                                <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/7yQa962uArY" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+                            </div>
+                        </div>
+                        <section class="mt-4">
+                            <div class="row justify-content-center">
+                                <div class="col-auto"><a class="media-link" href="media/documentos/Anexo_163.pdf" target="_blank"><img class="media-link-icon" src="assets/images/icons/icon_pdf.svg" alt="">
+                                        <div class="media-link-title">
+                                            <p>Escalado básico de pantalón</p>
+                                        </div>
+                                    </a></div>
+                            </div>
+                        </section>
+                    </div><br id="escalado4">
+                    <div class="header-ecored">
+                        <h2>1.4 Escalado cortes, manga, cuello</h2>
+                    </div>
+                    <div class="jumbotron bg-white shadow">
+                        <p>Cuando se va a iniciar con el proceso de escalado, se debe tener en cuenta referencias como cuadros de tallas, metodología y lógica de construcción, pieza o molde que se va escalar, es decir en este caso se hace referencia a prendas que ya han sido modificadas, que pueden tener margen de costura y validaciones como producto final, se trabajará el escalado en diferentes tallas, de igual manera se debe tener en cuenta el tipo de escalado que se va a trabajar, los aumentos y disminuciones por talla.</p>
+                        <div class="row justify-content-center">
+                            <div class="col-11">
+                                <div class="list align-items-start mt-4">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mt-1">Hacer el análisis del cuadro de tallas.</p>
+                                    </div>
+                                </div>
+                                <div class="list align-items-start mt-2">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mt-1">Hacer el análisis de diferencia por talla e identificar la medida aplicar en el escalado.</p>
+                                    </div>
+                                </div>
+                                <div class="list align-items-start mt-2">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img class="img-fluid" src="assets/images/pages/v1.svg"></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mt-1">Hacer el análisis de los puntos de escalado que se van a referenciar o modificar.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><img class="img-fluid img-a" src="assets/images/pages/img18.png" style="max-width: 100%">
+                        <div class="row justify-content-center mt-4">
+                            <div class="col-11">
+                                <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/5r4mM6naN40" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+                            </div>
+                        </div>
+                        <section class="mt-4">
+                            <div class="row justify-content-center">
+                                <div class="col-auto"><a class="media-link" href="media/documentos/Anexo_164.pdf" target="_blank"><img class="media-link-icon" src="assets/images/icons/icon_pdf.svg" alt="">
+                                        <div class="media-link-title">
+                                            <p>Cortes, manga, cuello - escalado</p>
+                                        </div>
+                                    </a></div>
+                            </div>
+                        </section>
+                    </div><br id="escalado5">
+                    <div class="header-ecored">
+                        <h2>1.5 Base superior masculina - análisis de escalado bibásico</h2>
+                    </div>
+                    <div class="jumbotron bg-white shadow">
+                        <p>En la metodología del manual de patronaje SENA, se identifican análisis y modificaciones en cada una de las líneas, es decir femenino tiene un manejo diferente a masculino e infantil, en infantil y en masculino se suelen trabajar medidas deducidas, partiendo en la mayoría de las veces de solo dos medidas del cuerpo y dejando de lado el cuadro de tallas. Con el fin de explorar y afianzar un poco más las diferentes formas y técnicas de escalado, en esta ocasión se trabajará un escalado bibásico tomando como referencia dos moldes de diferentes tallas o tallas de por medio en el vídeo identificará de qué manera puede hacer el trazo y el análisis de lo que se va a trabajar.</p>
+                        <p>Este tipo de escalado se implementa para evitar el análisis al cuadro de tallas haciendo análisis únicamente desde la construcción o desde la parte anatómica lógica del molde, despiece o la pieza.</p><img class="img-fluid img-a" src="assets/images/pages/img19.png" style="max-width: 100%">
+                        <div class="row justify-content-center mt-4">
+                            <div class="col-11">
+                                <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/xQx9dFGrOc8" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+                            </div>
+                        </div>
+                        <section class="mt-4">
+                            <div class="row justify-content-center">
+                                <div class="col-auto"><a class="media-link" href="media/documentos/Anexo_165.pdf" target="_blank"><img class="media-link-icon" src="assets/images/icons/icon_pdf.svg" alt="">
+                                        <div class="media-link-title">
+                                            <p>Base suoerior masculina - análisis de escalado bibásico</p>
+                                        </div>
+                                    </a></div>
+                            </div>
+                        </section>
+                    </div><br id="escalado6">
+                    <div class="header-ecored">
+                        <h2>1.6 Análisis y construcción de cuadro de tallas masculino - dxt escalado</h2>
+                    </div>
+                    <div class="jumbotron bg-white shadow">
+                        <p>En la metodología del manual de patronaje SENA, en la línea de masculino e infantil se debe identificar cuál es la fórmula o el tipo de construcción de los planos o moldes para poder tener las medidas e incrementos por talla que se van a trabajar en el escalado. Si bien se identifica en el manual un cuadro de tallas para cada una de estas líneas, se debe tener en cuenta que desde la construcción, por lo menos en las bases superiores, no se trabaja con el cuadro de tallas; es decir, que se debe hacer la construcción y el análisis del cuadro de tallas basándose en las fórmulas que indica cada una de las construcciones de las bases que se están trabajando, esto con el fin de poder identificar las diferencias por tallas que se van a aplicar en el escalado.</p>
+                        <p>Ya después de tener la construcción del cuadro de tallas o identificar las tallas reales que se aplican sobre el trazo o molde se debe hacer el análisis de los puntos y movimientos de escalado que se van a referenciar o modificar.</p><img class="img-fluid img-a" src="assets/images/pages/img20.png" style="max-width: 100%">
+                        <div class="row justify-content-center mt-4">
+                            <div class="col-11">
+                                <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/8B67K33OgdQ" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+                            </div>
+                        </div>
+                        <section class="mt-4">
+                            <div class="row justify-content-center">
+                                <div class="col-auto"><a class="media-link" href="media/documentos/Anexo_166-2.pdf" target="_blank"><img class="media-link-icon" src="assets/images/icons/icon_pdf.svg" alt="">
+                                        <div class="media-link-title">
+                                            <p>Análisis y construcción de cuadro de tallas masculino - DXT escalado (1)</p>
+                                        </div>
+                                    </a></div>
+                            </div>
+                        </section>
+                        <section class="mt-4">
+                            <div class="row justify-content-center">
+                                <div class="col-auto"><a class="media-link" href="media/documentos/Anexo_166-1.pdf" target="_blank"><img class="media-link-icon" src="assets/images/icons/icon_pdf.svg" alt="">
+                                        <div class="media-link-title">
+                                            <p>Análisis y construcción de cuadro de tallas masculino - DXT escalado (2)</p>
+                                        </div>
+                                    </a></div>
+                            </div>
+                        </section>
+                    </div><br id="escalado7">
+                    <div class="header-ecored">
+                        <h2>1.7 Modificación de moldes - análisis sobre medidas</h2>
+                    </div>
+                    <div class="jumbotron bg-white shadow">
+                        <p>Dentro del desarrollo de prendas y escalado de moldes, se debe tener en cuenta que en algunas ocasiones se hace un análisis sobre medidas o sobre requerimientos de clientes específicos, alguna de ellas puede ser modificaciones por talles, por anchos o por contornos. Este tipo de modificaciones se deben tener en cuenta al momento de realizar las prendas. En este vídeo encontrará una explicación general de cómo y qué manera puede implementar este tipo de modificaciones sobre todos los moldes que se han venido desarrollando a lo largo del programa.</p>
+                        <div class="row justify-content-center mt-4">
+                            <div class="col-11">
+                                <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/1iGARcb9woY" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+                            </div>
+                        </div>
+                        <section class="mt-4">
+                            <div class="row justify-content-center">
+                                <div class="col-auto"><a class="media-link" href="media/documentos/Anexo_167.pdf" target="_blank"><img class="media-link-icon" src="assets/images/icons/icon_pdf.svg" alt="">
+                                        <div class="media-link-title">
+                                            <p>Modificación de moldes - análisis sobre medidas</p>
+                                        </div>
+                                    </a></div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div id="tema-3">
+                <div class="container" id="optitex">
+                    <div class="header-ecored">
+                        <h1>2. Escalado en Optitex</h1>
+                    </div>
+                    <div class="jumbotron bg-white shadow">
+                        <p>A nivel general, el escalado digital o a través de un software de patronaje se trabaja de la misma manera o con el mismo análisis que se hace de forma manual, en esta ocasión únicamente se va a trabajar la programación, interfaz y herramientas del programa para hacer cualquier tipo de escalado, se tomará como referente únicamente la base de falda, sin embargo, estos mismos pasos y esta misma configuración aplica para cualquier tipo de base, prenda, trazo, molde o interpretación.</p>
+                        <div class="row justify-content-center mt-4">
+                            <div class="col-11">
+                                <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/7hRd_Ajd1bM" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+                            </div>
+                        </div>
+                        <section class="mt-4">
+                            <div class="row justify-content-center">
+                                <div class="col-auto"><a class="media-link" href="media/documentos/Anexo_17.pdf" target="_blank"><img class="media-link-icon" src="assets/images/icons/icon_pdf.svg" alt="">
+                                        <div class="media-link-title">
+                                            <p>Escalado en Optitex Versión 11</p>
+                                        </div>
+                                    </a></div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div id="glosario">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>Glosario</h1>
+                    </div>
+                    <div class="jumbotron bg-white">
+                        <p> <strong class="mr-2">Atributos del producto:</strong>son las cualidades o características del producto como color, tamaño.</p>
+                        <p> <strong class="mr-2">Defecto:</strong>es una no conformidad en características requeridas por el cliente o una norma y que causa incumplimiento del requisito y por tanto insatisfacción del cliente.</p>
+                        <p> <strong class="mr-2">ISO:</strong>Organización Internacional de Estandarización, ubicada en Ginebra Suiza y tiene presencia en 193. Promueve y desarrolla normas para estandarizar productos y servicios.</p>
+                        <p> <strong class="mr-2">Lote:</strong>número establecido de una producción, las cuales tienen características comunes y se agrupan dependiendo de un objetivo determinado.</p>
+                        <p> <strong class="mr-2">Mariposa:</strong>pieza del panty ubicada entre el tiro y la entrepierna para proteger y dar comodidad en la parte íntima femenina.</p>
+                        <p> <strong class="mr-2">Punto de control:</strong>son determinados con la metodología de árbol de decisión. Son las operaciones, faces o procesos que requieren realizar inspecciones para controlar la ocurrencia de defectos, lo cual es una medida preventiva.</p>
+                        <p> <strong class="mr-2">Punto de control crítico:</strong>operaciones, faces o procesos que requiere de riguroso control debido a que representa alto riesgo de presentar defectos y por tanto no cumplir con los requisitos.</p>
+                        <p> <strong class="mr-2">Sigma (σ):</strong>es una letra del alfabeto griego, utilizada en representar la desviación estándar (unidad estadística de medición), representa la dispersión o variabilidad de un conjunto de datos.</p>
+                        <p> <strong class="mr-2">Variables de calidad:</strong>cuantificación de las cualidades del producto. Ejemplo: carta de colores de la prenda.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="anexos">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>Material complementario</h1>
+                    </div>
+                    <div class="jumbotron bg-white">
+                        <table class="table table-bordered table-striped">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th>Nombre del documento o material</th>
+                                    <th>Tipo de material</th>
+                                    <th>Enlace del recurso</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Gaviria Londoño, 2018, Escalado masculino.</td>
+                                    <td>PDf</td>
+                                    <td> <a href="media/documentos/Anexo_c.pdf" target="_blank"><span class="fa fa-file" aria-hidden="true"></span> Ver</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div id="referencias">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>Referencias bibliográficas</h1>
+                    </div>
+                    <div class="jumbotron bg-white referencias">
+                        <p>Gutiérrez Rengifo, Lucy Alejandra, Moncayo Velazco, Adriana Ximena Instructora, Tanaka, Kenji Instructora, Kimura, Funiyo Experta, and Moreno Brand, Diana Coordinadora. Manual De Patronaje Básico E Interpretación De Diseños. Bogotá: SENA, Japan Inernational Cooperation Agency 'jica', 2011. Print.<a class="ml-2" href="https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000025496" target="_blank">https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000025496</a></p>
+                        <hr>
+                        <p>Equipo de Desarrollo Curricular, SENA Programa Técnico en Patronaje Industrial de Prendas de Vestir, Centro de Manufactura en Textil y Cuero, Distrito Capital, 2020.<a class="ml-2" target="_blank"></a></p>
+                        <hr>
+                        <p>Equipo de Desarrollo Curricular, SENA Programa Técnico en Elaboración de Prendas de Vestir Sobre Medidas, Centro de Manufactura en Textil y Cuero, Distrito Capital, 2020.</p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer" id="Creditos">
+            <div class="container">
+                <h1>Créditos </h1>
+                <div class="brand-line-primary"></div>
+                <div class="row">
+                    <div class="col-12 col-md-5">
+                        <h3 class="footer-subtitulo mb-4">ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES </h3>
+                        <p class="footer-texto mb-2"><strong>Ingry Dayanna Bonilla Monzón</strong><br /> <span class="text-small">Líder del equipo</span></p>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12 col-md-5">
+                        <h4 class="footer-subtitulo-2 mt-0">
+                            <div class="fa fa-caret-right mr-2"></div>Contenido Instruccional
+                        </h4>
+                        <p class="footer-texto mb-2"><strong>Gloria Matilde Lee Mejía </strong><br /> <span class="text-small">Responsable del equipo</span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro de Comercio y Servicios</span><br><span class="text-small">Regional Tolima</span></p>
+                        <p class="footer-texto mb-2"><strong>Rafael Nelftalí Lizcano Reyes</strong><br /> <span class="text-small">Asesor pedagógico<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro industrial del diseño y la manufactura </span><br><span class="text-small">Regional Santander</span></p>
+                        <p class="footer-texto mb-2"><strong>Oscar Andrés Hernández</strong><br /><span class="text-small">Experta tematica<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro de Servicio y Gestión Empresarial</span><br><span class="text-small">Regional Antioquia</span></p>
+                        <p class="footer-texto mb-2"><strong>Nathaly Ramírez</strong><br /><span class="text-small">Experto tematico<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro de Formación en Diseño y Confección y Moda</span><br><span class="text-small">Regional Antioquia</span></p>
+                        <p class="footer-texto mb-2"><strong>Carlos Andrés Rodríguez</strong><br /><span class="text-small">Diseñador instruccional<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro de Diseño y Metrología</span><br><span class="text-small">Regional Distrito Capital</span></p>
+                        <p class="footer-texto mb-2"><strong>Gloria Esperanza Ortiz Russi</strong><br /><span class="text-small">Evaluador instruccional<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro de Diseño y Metrología</span><br><span class="text-small">Regional Distrito Capital</span></p>
+                        <p class="footer-texto mb-2"><strong>Martha Isabel Martínez Vargas</strong><br /><span class="text-small">Revisora de estilo<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro Industrial Del Diseño Y La Manufactura</span><br><span class="text-small">Regional Santander</span></p>
+                    </div>
+                    <div class="col-12 col-md-5">
+                        <h4 class="footer-subtitulo-2 mt-0">
+                            <div class="fa fa-caret-right mr-2"></div>Diseño y desarrollo de recursos educativos digitales
+                        </h4>
+                        <p class="footer-texto mb-2"><strong>Francisco José Lizcano Reyes </strong><br /> <span class="text-small">Responsable del equipo<br /></span></p>
+                        <p class="footer-texto mb-2"><strong>Leyson Fabian Castaño Perez</strong><br /> <span class="text-small">Integración de recursos y pruebas<br /></span></p>
+                        <p class="footer-texto mb-2"> <strong>José Jaime Luis Tang Pinzón</strong><br /><span class="text-small">Diseño web & producción audiovisual<br /></span></p>
+                        <p class="footer-texto mb-2"><strong>Jhon Jairo Urueta Alvarez</strong><br /><span class="text-small">Desarrollo Front-End<br /></span></p>
+                        <p class="footer-texto mb-2"><span class="text-small text-uppercase">Centro industrial del diseño y la manufactura </span><br><span class="text-small">Regional Santander</span></p>
+                        <h4 class="footer-subtitulo-2 mt-4">
+                            <div class="fa fa-caret-right mr-2"></div>Gestores de repositorio
+                        </h4>
+                        <p class="footer-texto"> <strong>Brayan Steven Pinto Diaz</strong><br />
+                            <strong>Ricardo Alfonso Gonzalez Vargas</strong><br /><span class="text-small">Validación de recursos<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">CENTRO DE COMERCIO Y SERVICIOS</span><br><span class="text-small">Regional Tolima</span></p>
+                    </div>
+                    <div class="col-12 col-md-2">
+                        <div class="d-flex flex-column justify-content-center"><img src="assets/images/logos/senaLogo.svg" style="max-width:100px"></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <section id="cc">
+            <div class="container">
+                <div class="d-flex flex-column flex-sm-row"><span class="pr-3"><i class="icon cc"></i></span><span>Este material puede ser distribuido, copiado y exhibido por terceros si se muestra en los créditos. No se puede obtener ningún beneficio comercial y las obras derivadas tienen que estar bajo los mismos términos de la licencia que el trabajo original.</span></div>
+            </div>
+        </section><a class="scroll-to-top-btn">
+            <div class="fa fa-angle-up fa-2x"></div>
+        </a>
+        <script src="assets/js/vendor.js"></script>
+        <script src="js/local.js"></script>
+    </body>
+</html>
