@@ -60,7 +60,7 @@ ul#menuMain {
         align-items: center;
         padding: .5rem 1rem;
         color: $secondary !important;
-        font-weight: 300;
+        font-weight: 400;
         transition: all 0.2s ease-in-out;
         border-left: 4px solid transparent;
 
@@ -108,7 +108,7 @@ ul#menuMain {
         align-items: center;
         padding: 1rem;
         color: $primary !important;
-        font-weight: 400;
+        font-weight: 600;
         transition: all 0.2s ease-in-out;
         border-left: 4px solid transparent;
         cursor: pointer;
@@ -126,7 +126,6 @@ ul#menuMain {
     &__link--active {
         background-color: $gray-400 !important;
         color: $primary !important;  
-        font-weight: 500;
         border-right: 4px solid $primary !important;
     }
 

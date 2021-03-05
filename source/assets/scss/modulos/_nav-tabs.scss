@@ -1,13 +1,13 @@
 .nav-tab-ecored {
     .tab-content {
-        background-color: #F9CCCE;
+        border: 2px solid $brand-color-dark;
         border-top:none;
         padding: 2rem;
     }
 
     .nav-tabs {
         border-bottom: 1px solid $brand-color-light;
-        background: #FBD8A6;
+        background: $brand-color-light;
     }
 
     .nav-tabs .nav-item {
@@ -31,7 +31,10 @@
 
     .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
         border-color: transparent;
-        background: #F9CCCE;
+        background: #fff;
+        border-left: 2px solid $brand-color-dark;
+        border-top: 2px solid $brand-color-dark;
+        border-right: 2px solid $brand-color-dark;
         color: $brand-color-dark;
     }
 

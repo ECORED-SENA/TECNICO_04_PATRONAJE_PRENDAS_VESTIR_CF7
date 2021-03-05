@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" viewBox="0 0 140 140">
+  <g id="Grupo_16499" data-name="Grupo 16499" transform="translate(-3354 -20)">
+    <rect id="Rectángulo_4080" data-name="Rectángulo 4080" width="140" height="140" transform="translate(3354 20)" fill="none"/>
+    <g id="Grupo_16495" data-name="Grupo 16495" transform="translate(2629.06 -444.077)">
+      <circle id="Elipse_868" data-name="Elipse 868" cx="50.618" cy="50.618" r="50.618" transform="translate(743.94 483.874)" fill="#f6e094"/>
+      <g id="Grupo_15932" data-name="Grupo 15932">
+        <path id="Trazado_24989" data-name="Trazado 24989" d="M805.82,492.911,799,491.218l-23.551,94.818,6.818,1.694,2.958.735,23.551-94.818Z" fill="#de5954"/>
+        <rect id="Rectángulo_3873" data-name="Rectángulo 3873" width="97.699" height="3.048" transform="translate(782.27 587.729) rotate(-76.051)" fill="#bf4343"/>
+        <path id="Trazado_24990" data-name="Trazado 24990" d="M799,491.218l8.205-12.141,1.571,14.569Z" fill="#fff"/>
+        <path id="Trazado_24991" data-name="Trazado 24991" d="M807.207,479.077l-3.24,4.794,3.861.959Z" fill="#de5954"/>
+      </g>
+      <g id="Grupo_15933" data-name="Grupo 15933">
+        <path id="Trazado_24992" data-name="Trazado 24992" d="M822.912,493.033l-5.732-4.062-56.49,79.712,5.732,4.062,2.487,1.762L825.4,494.8Z" fill="#7c84c6"/>
+        <rect id="Rectángulo_3874" data-name="Rectángulo 3874" width="97.699" height="3.048" transform="translate(766.422 572.746) rotate(-54.676)" fill="#6d77af"/>
+        <path id="Trazado_24993" data-name="Trazado 24993" d="M817.18,488.971l12.066-8.315L825.4,494.8Z" fill="#fff"/>
+        <path id="Trazado_24994" data-name="Trazado 24994" d="M829.246,480.656l-4.765,3.284,3.246,2.3Z" fill="#7c84c6"/>
+      </g>
+      <g id="Grupo_15934" data-name="Grupo 15934">
+        <path id="Trazado_24995" data-name="Trazado 24995" d="M831.291,515.02l-3.882-5.856-81.431,53.982L749.86,569l1.684,2.54,81.431-53.982Z" fill="#a568c3"/>
+        <rect id="Rectángulo_3875" data-name="Rectángulo 3875" width="97.699" height="3.048" transform="matrix(0.833, -0.553, 0.553, 0.833, 749.86, 569.002)" fill="#8453a0"/>
+        <path id="Trazado_24996" data-name="Trazado 24996" d="M827.409,509.164l14.252-3.405-8.686,11.8Z" fill="#fff"/>
+        <path id="Trazado_24997" data-name="Trazado 24997" d="M841.662,505.759l-5.628,1.345,2.2,3.316Z" fill="#a568c3"/>
+      </g>
+    </g>
+  </g>
+</svg>

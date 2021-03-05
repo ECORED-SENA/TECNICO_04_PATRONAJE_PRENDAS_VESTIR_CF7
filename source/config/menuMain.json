@@ -4,73 +4,75 @@
     "slug": "external",
     "title": "Volver al inicio",
     "path": "index.html"
+  },  
+  {
+    "id": 0,
+    "icon": "fa fa-file-text",
+    "slug": "introduccion",
+    "title": "Introducción",    
+    "path": "pages/introduccion.html"
   },
   {
     "id": 1,
     "icon": "fa fa-file-text",
-    "slug": "intro",
-    "title": "Introducción",
-    "breadcrumb": ["Inicio","intro"],
-    "path": "pages/intro.html"
+    "slug": "escalado_manual_prendas",
+    "title": "1. Escalado manual de prendas",    
+    "path": "pages/tema-1.html"
   },
   {
     "id": 2,
-    "icon": "fa fa-file-text",
-    "slug": "escalado",
-    "title": "1. Escalado manual de prendas",
-    "breadcrumb": ["Inicio","escalado"],
-    "path": "pages/1-tema.html",
-    "submenu": [
-      {
-        "icon": "fa fa-file-text",
-        "slug": "escalado",
-        "title": "1.1 Escalado de falda",
-        "anchor": "escalado1"
-      },
-      {
-        "icon": "fa fa-file-text",
-        "slug": "escalado",
-        "title": "1.2 Escalado de base con pinzas - superior",
-        "anchor": "escalado2"
-      },
-      {
-        "icon": "fa fa-file-text",
-        "slug": "escalado",
-        "title": "1.3 Escalado de básico de pantalón",
-        "anchor": "escalado3"
-      },
-      {
-        "icon": "fa fa-file-text",
-        "slug": "escalado",
-        "title": "1.4 Escalado cortes, manga, cuello",
-        "anchor": "escalado4"
-      },
-      {
-        "icon": "fa fa-file-text",
-        "slug": "escalado",
-        "title": "1.5 Base superior masculina - análisis de escalado bibásico",
-        "anchor": "escalado5"
-      },
-      {
-        "icon": "fa fa-file-text",
-        "slug": "escalado",
-        "title": "1.6 Análisis y construcción de cuadro de tallas masculino - dxt escalado",
-        "anchor": "escalado6"
-      },
-      {
-        "icon": "fa fa-file-text",
-        "slug": "escalado",
-        "title": "1.7 Modificación de moldes - análisis sobre medidas",
-        "anchor": "escalado7"
-      }
-    ]
+    "icon": "fa fa-play-circle",
+    "slug": "escalado_falda",
+    "title": "1.1 Escalado de falda",    
+    "path": "pages/tema-1_1.html"
   },
   {
     "id": 3,
-    "icon": "fa fa-file-text",
-    "slug": "optitex",
-    "title": "2. Escalado en Optitex",
-    "breadcrumb": ["Inicio","optitex"],
-    "path": "pages/2-tema.html"
-  }
+    "icon": "fa fa-play-circle",
+    "slug": "escalado_base_pinzas",
+    "title": "1.2 Escalado de base con pinzas - superior",    
+    "path": "pages/tema-1_2.html"
+  },
+  {
+    "id": 4,
+    "icon": "fa fa-play-circle",
+    "slug": "escalado_basico_pantalon",
+    "title": "1.3 Escalado de básico de pantalón",    
+    "path": "pages/tema-1_3.html"
+  },
+  {
+    "id": 5,
+    "icon": "fa fa-play-circle",
+    "slug": "escalado_manga_cuello",
+    "title": "1.4 Escalado cortes, manga, cuello",    
+    "path": "pages/tema-1_4.html"
+  },
+  {
+    "id": 6,
+    "icon": "fa fa-play-circle",
+    "slug": "escalado_bibasico",
+    "title": "1.5 Base superior masculina - análisis de escalado bibásico",    
+    "path": "pages/tema-1_5.html"
+  },
+  {
+    "id": 7,
+    "icon": "fa fa-play-circle",
+    "slug": "escalado_dxt",
+    "title": "1.6 Análisis y construcción de cuadro de tallas masculino - dxt escalado",    
+    "path": "pages/tema-1_6.html"
+  },
+  {
+    "id": 8,
+    "icon": "fa fa-play-circle",
+    "slug": "modificacion_moldes",
+    "title": "1.7 Modificación de moldes - análisis sobre medidas",    
+    "path": "pages/tema-1_7.html"
+  },
+  {
+    "id": 9,
+    "icon": "fa fa-play-circle",
+    "slug": "escalado_optiplex",
+    "title": "1.8 Escalado en Optitex",    
+    "path": "pages/tema-1_8.html"
+  }     
 ]

@@ -14,7 +14,7 @@ html(lang="es")
 
                     include includes/page-home_topbar.pug
 
-                    +pageHeader("Tema", "assets/images/header/header_media.png", "")   
+                    +pageHeader("Tema", "assets/images/header/header_media.svg", "")   
 
         section#ResultadosAprendizaje.curso-resultados.section.bg-base-light
 
@@ -32,23 +32,25 @@ html(lang="es")
                 .row.justify-content-center
                     .col-12.col-sm-10
                         .card.wow.flipInX(data-wow-delay=".4s")
+                            
                             .card-body
+
                                 ul.list-group.list-group-flush.list.my-n3.nav-temas
-                                    ul.list-group.list-group-flush.list.my-n3.nav-temas
-                                    +navTemaItem('text','Introducción', 'main.html#page/#tema-1/')
-                                    +navTemaItem('1','Escalado manual de prendas', 'main.html#page/#tema-2/')
-                                    +navTemaItem('2', 'Escalado en Optitex', 'main.html#page/#tema-3/')
+                                    +navTemaItem('play', 'Introducción', '#introduccion')
+                                    +navTemaItem('1', 'Normativa vigente proceso ECCL', '#tema-1')
+                                    +navTemaItem('question', 'Actividad didáctica', '#evaluacion')
                                     +navTemaItem('glosary', 'Glosario', '#glosario')
                                     +navTemaItem('folder', 'Material complementario', '#anexos')
                                     +navTemaItem('references', 'Referencias bibliográficas', '#referencias')
 
-        section#mainContent
+
+        section#mainContent         
+            #introduccion
+                include pages/introduccion.pug
             #tema-1
-                include pages/intro.pug
-            #tema-2
                 include pages/1-tema.pug
-            #tema-3
-                include pages/2-tema.pug
+            #evaluacion
+                include pages/actividad-1.pug
             #glosario
                 include pages/glosario.pug
             #anexos
@@ -56,10 +58,17 @@ html(lang="es")
             #referencias
                 include pages/referencias.pug
 
+
         +creditosFooter("assets/images/logos/senaLogo.svg")
+
 
         a.scroll-to-top-btn
             .fa.fa-angle-up.fa-2x
 
         script(src="assets/js/vendor.js")
         script(src="js/local.js")
+
+
+
+
+

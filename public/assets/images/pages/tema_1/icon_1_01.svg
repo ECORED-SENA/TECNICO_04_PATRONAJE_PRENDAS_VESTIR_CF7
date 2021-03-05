@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" viewBox="0 0 140 140">
+  <g id="Grupo_16498" data-name="Grupo 16498" transform="translate(-3170 -20)">
+    <rect id="Rectángulo_4079" data-name="Rectángulo 4079" width="140" height="140" transform="translate(3170 20)" fill="none"/>
+    <g id="Grupo_16494" data-name="Grupo 16494" transform="translate(2327.044 -443.702)">
+      <circle id="Elipse_869" data-name="Elipse 869" cx="50.618" cy="50.618" r="50.618" transform="translate(861.956 483.874)" fill="#f6e094"/>
+      <g id="Grupo_15938" data-name="Grupo 15938">
+        <g id="Grupo_15936" data-name="Grupo 15936">
+          <path id="Trazado_24998" data-name="Trazado 24998" d="M932.065,488.276l-6.571-2.485-34.56,91.382,6.571,2.485,2.851,1.078,34.56-91.382Z" fill="#f3d35a"/>
+          <rect id="Rectángulo_3876" data-name="Rectángulo 3876" width="97.699" height="3.048" transform="translate(897.505 579.658) rotate(-69.284)" fill="#ddbb50"/>
+          <path id="Trazado_24999" data-name="Trazado 24999" d="M925.494,485.791l9.579-11.089-.157,14.652Z" fill="#e1dfea"/>
+          <path id="Trazado_25000" data-name="Trazado 25000" d="M935.073,474.7l-3.783,4.379,3.721,1.407Z" fill="#606060"/>
+        </g>
+        <rect id="Rectángulo_3877" data-name="Rectángulo 3877" width="6.499" height="10.129" transform="translate(888.851 582.678) rotate(-69.376)" fill="#d8eaf5"/>
+        <g id="Grupo_15937" data-name="Grupo 15937">
+          <rect id="Rectángulo_3878" data-name="Rectángulo 3878" width="3.16" height="10.129" transform="translate(890.027 579.554) rotate(-69.376)" fill="#b0d7eb"/>
+          <rect id="Rectángulo_3879" data-name="Rectángulo 3879" width="6.499" height="3.427" transform="translate(895.122 585.038) rotate(-69.376)" fill="#b0d7eb"/>
+        </g>
+        <path id="Trazado_25001" data-name="Trazado 25001" d="M890.921,591.554h0a5.064,5.064,0,0,0,6.523-2.956l.971-2.579-9.48-3.568-.97,2.579A5.064,5.064,0,0,0,890.921,591.554Z" fill="#df6467"/>
+        <path id="Trazado_25002" data-name="Trazado 25002" d="M894.214,587.431a5.835,5.835,0,0,1-4.234,3.652,5.08,5.08,0,0,0,.941.471h0a5.064,5.064,0,0,0,6.523-2.956l.971-2.579-3.214-1.21Z" fill="#dd525a"/>
+      </g>
+    </g>
+  </g>
+</svg>
